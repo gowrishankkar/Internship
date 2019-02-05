@@ -1,1 +1,1 @@
-# GowriTraining
+# TEKZIE Training
