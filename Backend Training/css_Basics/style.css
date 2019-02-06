@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: brown;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+a:active {
+  color: green;
+  font-weight: bold;
+}
+.wrapper {
+  border: #000 1px solid;
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+  left: 50px;
+  background-image: url("bg.jpg");
+}
+
+.inside {
+  border: #ff0000 1.5px solid;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 25px;
+  left: 60px;
+}

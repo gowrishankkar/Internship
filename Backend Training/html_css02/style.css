@@ -1,0 +1,80 @@
+body {
+  background: #666;
+  color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0ex;
+}
+nav li {
+  list-style: none;
+  float: left;
+  padding-right: 30px;
+}
+
+h3 {
+  color: black;
+}
+
+#container {
+  background: #333;
+  width: 1150px;
+  margin: 50px;
+  overflow: hidden;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+nav {
+  height: 30px;
+  background: #666;
+}
+
+nav ul {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  background: #666;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+main {
+  float: left;
+  width: 60%;
+}
+
+.clr {
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  background: white;
+  padding: 5px;
+  margin-top: 10px;
+  color: #333;
+}
+
+#myCanvas {
+  border: 2px #fff dashed;
+  background: #666;
+}
+
+#box {
+  padding: 15px;
+  width: 200px;
+  height: 250px;
+  border: 5px black dashed;
+}

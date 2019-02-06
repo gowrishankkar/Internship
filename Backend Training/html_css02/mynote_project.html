@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function getNote() {
+        if (localStorage.getItem("note")) {
+          var v = localStorage.getItem("note");
+        } else {
+          var note = " Come on Write Something";
+        }
+
+        document.getElementById("note").innerHTML = note;
+      }
+
+      function saveNote(id) {
+        var note = document.getElementById("note").innerHTML;
+        localStorage.setItem("note", note);
+      }
+
+      function clearnote() {
+        clear: localStorage.clear();
+      }
+    </script>
+  </head>
+  <body>
+    <header><h1>Notes on everything</h1></header>
+    <section id="container">
+      <div id="note" contenteditable="true" onkeyup="saveNote(this.id)"></div>
+    </section>
+
+    <footer>
+      <div>
+        <a href="" class="clear" onclick="javascript:clearnote()"
+          >Clear Everything</a
+        >
+      </div>
+    </footer>
+    <script>
+      getNote();
+    </script>
+  </body>
+</html>

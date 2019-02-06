@@ -1,0 +1,40 @@
+body {
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 900px;
+}
+
+#container {
+  background: lightcyan;
+  width: 1100px;
+  margin: 30px auto;
+  overflow: hidden;
+  padding: 10px;
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+}
+
+#left-sidebar {
+  width: 30%;
+  float: left;
+}
+#clear {
+  clear: both;
+}
+#right-sidebar {
+  width: 70%;
+  height: 530px;
+  float: right;
+  opacity: 1;
+  filter: alpha(opacity=50);
+  background-color: black;
+
+  padding: 5px;
+}
+
+#nav {
+  background: whitesmoke;
+}
+
+#logo-sec {
+}
